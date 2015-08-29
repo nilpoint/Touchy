@@ -13,6 +13,7 @@
 		521B10981B926E4D00A15C6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521B10971B926E4D00A15C6E /* Images.xcassets */; };
 		521B109B1B926E4D00A15C6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521B10991B926E4D00A15C6E /* LaunchScreen.xib */; };
 		521B10A71B926E4D00A15C6E /* TouchyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B10A61B926E4D00A15C6E /* TouchyTests.swift */; };
+		521B10B11B926FA100A15C6E /* TouchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B10B01B926FA100A15C6E /* TouchyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		521B10A01B926E4D00A15C6E /* TouchyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521B10A51B926E4D00A15C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521B10A61B926E4D00A15C6E /* TouchyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyTests.swift; sourceTree = "<group>"; };
+		521B10B01B926FA100A15C6E /* TouchyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				521B10901B926E4D00A15C6E /* AppDelegate.swift */,
 				521B10921B926E4D00A15C6E /* ViewController.swift */,
+				521B10B01B926FA100A15C6E /* TouchyView.swift */,
 				521B10941B926E4D00A15C6E /* Main.storyboard */,
 				521B10971B926E4D00A15C6E /* Images.xcassets */,
 				521B10991B926E4D00A15C6E /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				521B10931B926E4D00A15C6E /* ViewController.swift in Sources */,
 				521B10911B926E4D00A15C6E /* AppDelegate.swift in Sources */,
+				521B10B11B926FA100A15C6E /* TouchyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
